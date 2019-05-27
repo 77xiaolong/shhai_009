@@ -15,7 +15,7 @@ class Test_001:
         allure.attach("用户名", "张三")
         allure.attach("密码", "123456")
         print("--->test_001_2")
-        assert False
+        assert True
 
     @pytest.allure.severity(pytest.allure.severity_level.NORMAL)
     @allure.step(title="这是一个测试步骤03")
